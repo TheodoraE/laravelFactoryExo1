@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Student;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -17,7 +18,7 @@ class DatabaseSeeder extends Seeder
             BatimentSeeder::class,
             FormationSeeder::class,
             TypeFormationSeeder::class
-            
         ]);
+        Student::factory()->count(50)->create();
     }
 }
