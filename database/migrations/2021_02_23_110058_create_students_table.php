@@ -17,7 +17,7 @@ class CreateStudentsTable extends Migration
             $table->id();
             $table->string('lastame', 30);
             $table->string('firstname', 30);
-            $table->number('age');
+            $table->integer('age');
             $table->boolean('state', 30);
             $table->timestamps();
         });

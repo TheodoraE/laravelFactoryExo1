@@ -1,5 +1,7 @@
 @extends('template.main')
 
 @section('content')
-    @include('partials.table')
+    <div class="container">
+        
+    </div>
 @endsection
